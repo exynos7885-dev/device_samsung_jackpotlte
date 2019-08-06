@@ -11,12 +11,15 @@ function blob_fixup() {
 	vendor/lib/hw/audio.primary.exynos7885.so|vendor/lib/libaudio-ril.so)
 	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
 	    ;;
+	vendor/lib*/hw/camera.exynos7885.so|vendor/lib*/libexynoscamera.so|vendor/lib*/libexynoscamera3.so)
+	    "${PATCHELF}" --replace-needed "libcamera_client.so" "libcamera_metadata_helper.so" "${2}"
+	    ;;
 	vendor/lib/libaudio_soundtrigger.so)
 	    "${PATCHELF}" --replace-needed sound_trigger.primary.universal7885.so sound_trigger.primary.exynos7885.so "${2}"
 	    ;;
 	vendor/lib*/libsensorlistener.so)
 	    "${PATCHELF}" --add-needed libshim_sensorndkbridge.so "${2}"
-	    ;;
+            ;;
     esac
 }
 
