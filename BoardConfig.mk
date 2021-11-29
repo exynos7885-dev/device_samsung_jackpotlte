@@ -13,6 +13,9 @@ include device/samsung/exynos7885-common/BoardConfigCommon.mk
 # Camera
 BOARD_HWJPEG_ANDROID_VERSION := 9
 
+# Fingerprint
+TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_jackpotlte_defconfig
 
