@@ -23,6 +23,10 @@ $(call inherit-product, vendor/samsung/jackpotlte/jackpotlte-vendor.mk)
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    libgui_vendor
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_SCREEN_HEIGHT := 2220
