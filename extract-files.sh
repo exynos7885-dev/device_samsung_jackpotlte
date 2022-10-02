@@ -8,8 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
-	vendor/etc/mixer_paths.xml)
+	vendor/etc/mixer_gains.xml|vendor/etc/mixer_paths.xml)
 	    sed -i 's/\/system\/etc\/mixer_gains.xml/\/vendor\/etc\/mixer_gains.xml/g' "${2}"
+	    sed -i 's/call_forwarding_master/call_forwarding_primary/g' "${2}"
 	    ;;
 	vendor/lib/hw/audio.primary.exynos7885.so|vendor/lib/libaudio-ril.so)
 	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
