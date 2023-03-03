@@ -64,3 +64,7 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.1-service.typec
+
+# Wifi
+PRODUCT_PACKAGES += \
+    WifiOverlayA8
