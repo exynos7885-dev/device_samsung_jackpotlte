@@ -19,6 +19,7 @@ function blob_fixup() {
 	    "${PATCHELF}" --replace-needed sound_trigger.primary.universal7885.so sound_trigger.primary.exynos7885.so "${2}"
 	    ;;
 	vendor/lib*/libsensorlistener.so)
+	    "${PATCHELF}" --replace-needed "libandroid.so" "libsensorndkbridge.so" "${2}"
 	    "${PATCHELF}" --add-needed libshim_sensorndkbridge.so "${2}"
             ;;
     esac
