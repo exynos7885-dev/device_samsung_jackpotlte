@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := samsungexynos7885
+
 ## Device Path
 DEVICE_PATH := device/samsung/jackpotlte
 
