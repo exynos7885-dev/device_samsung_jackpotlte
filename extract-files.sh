@@ -6,17 +6,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-#function blob_fixup() {
-#    case "${1}" in
-#        vendor/lib/libsample1.so)
-#            sed -i 's|/data/misc/sample1|/data/misc/sample2|g' "${2}"
-#            ;;
-#        vendor/lib64/libsample2.so)
-#            "${PATCHELF}" --remove-needed "libsample3.so" "${2}"
-#            "${PATCHELF}" --add-needed "libsample4.so" "${2}"
-#            ;;
-#    esac
-#}
+function blob_fixup() {
+    case "${1}" in
+	vendor/lib/hw/audio.primary.exynos7885.so|vendor/lib/libaudio-ril.so)
+	    "${PATCHELF}" --replace-needed libvndsecril-client.so libsecril-client.so "${2}"
+	    ;;
+	vendor/lib/libaudio_soundtrigger.so)
+	    "${PATCHELF}" --replace-needed sound_trigger.primary.universal7885.so sound_trigger.primary.exynos7885.so "${2}"
+	    ;;
+	vendor/lib*/libsensorlistener.so)
+	    "${PATCHELF}" --add-needed libshim_sensorndkbridge.so "${2}"
+	    ;;
+    esac
+}
 
 # If we're being sourced by the common script that we called,
 # stop right here. No need to go down the rabbit hole.

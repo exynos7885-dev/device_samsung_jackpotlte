@@ -19,6 +19,10 @@ $(call inherit-product, device/samsung/exynos7885-common/exynos7885.mk)
 ## Inherit vendor blobs
 $(call inherit-product, vendor/samsung/jackpotlte/jackpotlte-vendor.mk)
 
+# Audio
+PRODUCT_PACKAGES += \
+    libstdc++.vendor
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 TARGET_SCREEN_HEIGHT := 2220

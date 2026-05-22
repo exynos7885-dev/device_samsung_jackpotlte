@@ -2,6 +2,42 @@
 # Vendor blobs for jackpotlte - A530FXXULCUK6
 #
 
+# Audio
+lib/hw/audio.primary.universal7885.so:vendor/lib/hw/audio.primary.exynos7885.so
+lib/libSamsungPostProcessConvertor.so:vendor/lib/libSamsungPostProcessConvertor.so
+lib/lib_SamsungRec_06004.so:vendor/lib/lib_SamsungRec_06004.so
+lib/lib_SoundAlive_SRC384_ver320.so:vendor/lib/lib_SoundAlive_SRC384_ver320.so
+lib/lib_soundaliveresampler.so:vendor/lib/lib_soundaliveresampler.so
+lib/libaboxpcmdump.so:vendor/lib/libaboxpcmdump.so
+lib/libaudio-ril.so:vendor/lib/libaudio-ril.so
+lib/libaudioroute.so:vendor/lib/libaudioroute.so
+lib/librecordalive.so:vendor/lib/librecordalive.so
+lib/libsamsungDiamondVoice.so:vendor/lib/libsamsungDiamondVoice.so
+lib/libtinyalsa.so:vendor/lib/libtinyalsa.so
+vendor/lib/hw/sound_trigger.primary.universal7885.so:vendor/lib/hw/sound_trigger.primary.exynos7885.so
+vendor/lib/libsecaudioinfo.so
+vendor/lib/libaudio_soundtrigger.so
+vendor/lib/libdatamod.so
+
+# Audio Configs
+etc/mixer_gains.xml:vendor/etc/mixer_gains.xml
+etc/mixer_paths.xml:vendor/etc/mixer_paths.xml
+vendor/etc/SoundBoosterParam.txt
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/default_volume_tables.xml
+
+# Camera
+lib64/hw/camera.exynos7885.so:vendor/lib64/hw/camera.exynos7885.so
+lib64/libexynoscamera.so:vendor/lib64/libexynoscamera.so
+lib64/libexynoscamera3.so:vendor/lib64/libexynoscamera3.so
+lib64/libhifills.so:vendor/lib64/libhifills.so
+lib64/libhifills_interface.so:vendor/lib64/libhifills_interface.so
+lib64/libremosaic_daemon.so:vendor/lib64/libremosaic_daemon.so
+lib64/libremosaic_tuning.so:vendor/lib64/libremosaic_tuning.so
+lib64/libremosaiclib.so:vendor/lib64/libremosaiclib.so
+lib64/libuniapi.so:vendor/lib64/libuniapi.so
+lib64/libuniplugin.so:vendor/lib64/libuniplugin.so
+
 # Fingerprint
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
@@ -15,3 +51,79 @@ vendor/lib64/libegis_fp_normal_sensor_test.so
 vendor/lib64/libgf_in_system_lib.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
+
+# Firmware
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/APBargeIn_AUDIO_SLSI.bin
+vendor/firmware/calliope_dram.bin
+vendor/firmware/calliope_sram.bin
+vendor/firmware/dbmd4_va_fw.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/setfile_2p6.bin
+vendor/firmware/setfile_3p8sp.bin
+vendor/firmware/setfile_sr846_front.bin
+vendor/firmware/Tfa9872.cnt
+vendor/firmware/tfadsp.bin
+
+# Floating Feature
+etc/floating_feature.xml:vendor/etc/floating_feature.xml
+
+# Gatekeeper
+vendor/lib/hw/gatekeeper.exynos7885.so
+vendor/lib64/hw/gatekeeper.exynos7885.so
+
+# Keymaster
+lib/libskeymaster.so:vendor/lib/libskeymaster.so
+lib64/libskeymaster.so:vendor/lib64/libskeymaster.so
+vendor/lib/libskeymaster3device.so
+vendor/lib64/hw/keystore.mdfpp.so
+vendor/lib64/libkeymaster_helper.so
+vendor/lib64/libkeymaster_mdfpp.so
+vendor/lib64/libskeymaster3device.so
+
+# MobiCore
+app/mcRegistry/ffffffff000000000000000000000004.tlbin:vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin
+app/mcRegistry/ffffffff00000000000000000000000c.tlbin:vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin
+app/mcRegistry/ffffffff00000000000000000000000d.tlbin:vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin
+app/mcRegistry/ffffffff00000000000000000000003e.tlbin:vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
+app/mcRegistry/ffffffffd00000000000000000000004.tlbin:vendor/app/mcRegistry/ffffffffd00000000000000000000004.tlbin
+vendor/app/mcRegistry/00060308060501020000000000000000.tlbin
+vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
+vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin
+vendor/app/mcRegistry/08130000000000000000000000000000.tlbin
+vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin
+vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000a.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000016.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000019.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000045.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000060.tlbin
+vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
+vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
+
+# NFC Firmware
+vendor/etc/nfc/sec_s3nrn81_rfreg.bin
+vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+
+# Sensors
+lib/libsensorlistener.so:vendor/lib/libsensorlistener.so
+lib64/libsensorlistener.so:vendor/lib64/libsensorlistener.so
+vendor/lib/hw/sensors.universal7885.so:vendor/lib/hw/sensors.exynos7885.so
+vendor/lib64/hw/sensors.universal7885.so:vendor/lib64/hw/sensors.exynos7885.so
