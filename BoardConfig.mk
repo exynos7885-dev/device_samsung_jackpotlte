@@ -10,6 +10,9 @@ DEVICE_PATH := device/samsung/jackpotlte
 ## Include common BoardConfig
 include device/samsung/exynos7885-common/BoardConfigCommon.mk
 
+# Camera
+BOARD_HWJPEG_ANDROID_VERSION := 9
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_jackpotlte_defconfig
 
