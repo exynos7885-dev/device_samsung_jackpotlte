@@ -2,29 +2,26 @@
 # Vendor blobs for jackpotlte - A530FXXULCUK6
 #
 
-# Audio
-lib/hw/audio.primary.universal7885.so:vendor/lib/hw/audio.primary.exynos7885.so
-lib/libSamsungPostProcessConvertor.so:vendor/lib/libSamsungPostProcessConvertor.so
-lib/lib_SamsungRec_06004.so:vendor/lib/lib_SamsungRec_06004.so
-lib/lib_SoundAlive_SRC384_ver320.so:vendor/lib/lib_SoundAlive_SRC384_ver320.so
-lib/lib_soundaliveresampler.so:vendor/lib/lib_soundaliveresampler.so
-lib/libaboxpcmdump.so:vendor/lib/libaboxpcmdump.so
-lib/libaudio-ril.so:vendor/lib/libaudio-ril.so
-lib/libaudioroute.so:vendor/lib/libaudioroute.so
-lib/librecordalive.so:vendor/lib/librecordalive.so
-lib/libsamsungDiamondVoice.so:vendor/lib/libsamsungDiamondVoice.so
-lib/libtinyalsa.so:vendor/lib/libtinyalsa.so
-vendor/lib/hw/sound_trigger.primary.universal7885.so:vendor/lib/hw/sound_trigger.primary.exynos7885.so
-vendor/lib/libsecaudioinfo.so
-vendor/lib/libaudio_soundtrigger.so
-vendor/lib/libdatamod.so
-
 # Audio Configs
 etc/mixer_gains.xml:vendor/etc/mixer_gains.xml
 etc/mixer_paths.xml:vendor/etc/mixer_paths.xml
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/default_volume_tables.xml
+
+# Audio HAL - A750FNXXU5CVG2
+vendor/lib/hw/audio.primary.exynos7885.so|912a5c6352bd20afbbba9bab4aafc2582b9244d8|806e6f82389f7aab08459c37d2ca808ed24d09b5
+vendor/lib/libSamsungPostProcessConvertor.so|e6d0261fd7a3bc1b083e470b4068cfa66b7320d9
+vendor/lib/lib_SamsungRec_06005.so|ec11b0cf0a31834a7d03687d20c37f64e4064544
+vendor/lib/lib_SoundAlive_SRC384_ver320.so|3ab06abd04a8ab289b5065d4d9d3bbff53be2794
+vendor/lib/lib_soundaliveresampler.so|da77859f01e89f9e5dfef3812a9acff0faa8edca
+vendor/lib/libaudio-ril.so|83ca6d5b55c9f95b12b0b61fb7ff1bba76367ca7|43eebb634edba11cdfa692e480a43e41395e6951
+vendor/lib/libaudio_soundtrigger.so|9df1c3362455b1637998779107471722c07067f2
+vendor/lib/libaudioroute.so|245f6232d084604dd56be043facd4dd29cf53c40
+vendor/lib/librecordalive.so|bdc43dfa9f5cca1ce5627152bd6368b02cdb7d8d
+vendor/lib/libsamsungDiamondVoice.so|e5e6969ea3eade1e2e6581dd285ad03d6d890aed
+vendor/lib/libsecaudioinfo.so|77b8a665324a58a2cfe79159e32958f9e9b2307e
+vendor/lib/libtinyalsa.so|9ffd4abac44b8a5c6ea5308670ba93124914594b
 
 # Camera
 lib64/hw/camera.exynos7885.so:vendor/lib64/hw/camera.exynos7885.so
