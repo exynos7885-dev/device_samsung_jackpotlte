@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+	vendor/etc/libnfc-nci.conf)
+	    sed -i 's/\/data\/nfc/\/data\/vendor\/nfc/g' "${2}"
+	    ;;
 	vendor/etc/mixer_gains.xml|vendor/etc/mixer_paths.xml)
 	    sed -i 's/\/system\/etc\/mixer_gains.xml/\/vendor\/etc\/mixer_gains.xml/g' "${2}"
 	    sed -i 's/call_forwarding_master/call_forwarding_primary/g' "${2}"

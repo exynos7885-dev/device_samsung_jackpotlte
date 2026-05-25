@@ -115,6 +115,9 @@ vendor/app/mcRegistry/ffffffffd00000000000000000000017.tlbin
 vendor/app/mcRegistry/ffffffffd00000000000000000000045.drbin
 vendor/app/mcRegistry/fffffffff0000000000000000000001b.tlbin
 
+# NFC Configs
+etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
+
 # NFC Firmware
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
