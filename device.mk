@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+## Board
+TARGET_BOARD_PLATFORM := exynos7885
+
 ## Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := samsungexynos7885
 
