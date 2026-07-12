@@ -55,14 +55,16 @@ vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/calliope_dram.bin
 vendor/firmware/calliope_sram.bin
 vendor/firmware/dbmd4_va_fw.bin
-vendor/firmware/fimc_is_lib.bin
-vendor/firmware/fimc_is_rta.bin
 vendor/firmware/mfc_fw.bin
 vendor/firmware/setfile_2p6.bin
 vendor/firmware/setfile_3p8sp.bin
 vendor/firmware/setfile_sr846_front.bin
 vendor/firmware/Tfa9872.cnt
 vendor/firmware/tfadsp.bin
+
+# FIMC Firmware - A750FNXXU5CVG2
+vendor/firmware/fimc_is_lib.bin|e60dea9f30d248e2c76fcd4c4cb1fcfdab9226f8
+vendor/firmware/fimc_is_rta.bin|a4ca95843769d476b3a56f8624d1e32236d77a4c
 
 # Floating Feature
 etc/floating_feature.xml:vendor/etc/floating_feature.xml
