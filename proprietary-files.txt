@@ -23,17 +23,47 @@ vendor/lib/libsamsungDiamondVoice.so|e5e6969ea3eade1e2e6581dd285ad03d6d890aed
 vendor/lib/libsecaudioinfo.so|77b8a665324a58a2cfe79159e32958f9e9b2307e
 vendor/lib/libtinyalsa.so|9ffd4abac44b8a5c6ea5308670ba93124914594b
 
-# Camera
-lib64/hw/camera.exynos7885.so:vendor/lib64/hw/camera.exynos7885.so
-lib64/libexynoscamera.so:vendor/lib64/libexynoscamera.so
-lib64/libexynoscamera3.so:vendor/lib64/libexynoscamera3.so
-lib64/libhifills.so:vendor/lib64/libhifills.so
-lib64/libhifills_interface.so:vendor/lib64/libhifills_interface.so
-lib64/libremosaic_daemon.so:vendor/lib64/libremosaic_daemon.so
-lib64/libremosaic_tuning.so:vendor/lib64/libremosaic_tuning.so
-lib64/libremosaiclib.so:vendor/lib64/libremosaiclib.so
-lib64/libuniapi.so:vendor/lib64/libuniapi.so
-lib64/libuniplugin.so:vendor/lib64/libuniplugin.so
+# Camera - SC02LOMS1CVK2
+vendor/lib/hw/camera.exynos7885.so|43e0263dd64e7601599f01d396eef833d6e52200|1e4e8c59dbcfad5fa63a931bb84b29ac2c778e62
+vendor/lib/libOpenCv.camera.samsung.so|cfce18b4b8a320e13d371386db2fc14dabde5dc7
+vendor/lib/libexynoscamera.so|804e3425e1e9056989e042bd5ad5845b35ca517b|91fefd8deb0169cba2a546735dfe34d0334e3777
+vendor/lib/libexynoscamera3.so|40e5ba695ffc3c603cdf4ca62a01ffc60222e510|d74a7c4951c97ddea2054f52c32ae717f983d78d
+vendor/lib/libhifills.so|56c31d07fc1a939becb69d520f7fbe16bb6cb48c
+vendor/lib/libhifills_interface.so|18076fb7674ec8149551b514a076e654e5365576
+vendor/lib/libremosaic_daemon.so|b29d3624a699c70d012ba1ba59fcafa411a8ffce
+vendor/lib/libremosaic_tuning.so|9c39e7c41659bb5407ca8e4690348bb6ae9b3db5
+vendor/lib/libremosaiclib_s5k3p8sp_gpu.so|66c33277bf24d42aca940a2aa907f4650a30fa45
+vendor/lib/libsaiv_BeautySolutionVideo.so|6d58aed4b1a626995f5eb885574914f9b373d2c2
+vendor/lib/libswldc_capture_core.camera.samsung.so|e10b70f765bd5bcc61dd67e46db94f4a9b00a7b4
+vendor/lib/libuniapi.so|00e97a18f49aadcbab12df0ec19ea8830eb8c354
+vendor/lib/libuniplugin.so|aca06695725b74bc72978da0487744c53d7a47ed
+vendor/lib/libvdis_core.so|8e2a2c2d3564a9050b12ffdc3283cc21f746a5e3
+vendor/lib/libvdis_interface.so|960ea63f198fd6d260cc51ca22346d361cc0b0a6
+vendor/lib/libvideobeauty_interface.so|36553460b70689de4c70a2264cdd79db04a72968
+vendor/lib/libxcv.camera.samsung.so|e7a29884c0a40975924587c96722545ab1123acb
+vendor/lib64/hw/camera.exynos7885.so|8c38d110ef02eba1f2483de90b1b17188ddc7eb6|0868d492557dc7b2d3d322d2b34a7ed28c53c43b
+vendor/lib64/libOpenCv.camera.samsung.so|3543a31337aab4ca6f05358604cb9269a5c8e2a9
+vendor/lib64/libexynoscamera.so|9e724c757d0d472c0305af5ad3e97e8f5c0de0d4|9d6855dbff7be8f3dd25729383851a37cbc249a1
+vendor/lib64/libexynoscamera3.so|47bf861c779c5345149491d79d18e0d249b282c9|b500687cf314102b6b25730ce78f4c68d3d477ca
+vendor/lib64/libhifills.so|d2c6a1b5ee51c11d704ef8990294bd1f301a1706
+vendor/lib64/libhifills_interface.so|ddd006b5c9ae996fe73b2854278e1fc2bbedcbd5
+vendor/lib64/libremosaic_daemon.so|4407df0b5098ae4588d238bf17f79a4bc39c0491
+vendor/lib64/libremosaic_tuning.so|416bdaa98f8ffe52e8c6f5853bf8686fd952c3b4
+vendor/lib64/libremosaiclib_s5k3p8sp_gpu.so|66c33277bf24d42aca940a2aa907f4650a30fa45
+vendor/lib64/libsaiv_BeautySolutionVideo.so|fd8cb91b83a554450ee358a738f1c05a01cb382d
+vendor/lib64/libswldc_capture_core.camera.samsung.so|ae68fa9e695a660c7bbcbd75d3f5504209bc0c92
+vendor/lib64/libuniapi.so|12240cbcf8e288285f5ae36e0fb9c1174a9f3c9c
+vendor/lib64/libuniplugin.so|aed816a42562bfe3dff16606d8b1ae697b9836fd
+vendor/lib64/libvdis_core.so|d690b5c576eb3a020a3861786583b2eff85b4e70
+vendor/lib64/libvdis_interface.so|e2ea2e9ca8850d6b5d0ab997526195295f77faf5
+vendor/lib64/libvideobeauty_interface.so|402fae414c53c60b5640580a8f37cb8394d2f103
+vendor/lib64/libxcv.camera.samsung.so|991667c817e9e851a312b7d8553578a67d9e5030
+
+# Camera Firmware - SC02LOMS1CVK2
+vendor/firmware/fimc_is_lib.bin|14488b9fc92e5795a967f6c6e869e75c696309ba
+vendor/firmware/fimc_is_rta.bin|9f5deb6176ed1241996b04fb99db77a3225c359d
+vendor/firmware/setfile_2p6.bin|ea645913782790a3528829c5e88c0f0b822509e3
+vendor/firmware/setfile_3p8sp.bin|e52de1d5cf4d79826b1e5d97263a7c11054b601d
 
 # Fingerprint
 vendor/lib/libbauthserver.so
@@ -56,15 +86,9 @@ vendor/firmware/calliope_dram.bin
 vendor/firmware/calliope_sram.bin
 vendor/firmware/dbmd4_va_fw.bin
 vendor/firmware/mfc_fw.bin
-vendor/firmware/setfile_2p6.bin
-vendor/firmware/setfile_3p8sp.bin
 vendor/firmware/setfile_sr846_front.bin
 vendor/firmware/Tfa9872.cnt
 vendor/firmware/tfadsp.bin
-
-# FIMC Firmware - A750FNXXU5CVG2
-vendor/firmware/fimc_is_lib.bin|e60dea9f30d248e2c76fcd4c4cb1fcfdab9226f8
-vendor/firmware/fimc_is_rta.bin|a4ca95843769d476b3a56f8624d1e32236d77a4c
 
 # Floating Feature
 etc/floating_feature.xml:vendor/etc/floating_feature.xml
