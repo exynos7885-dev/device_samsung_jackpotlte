@@ -106,6 +106,11 @@ vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libkeymaster_mdfpp.so
 vendor/lib64/libskeymaster3device.so
 
+# Media Configs
+vendor/etc/media_codecs.xml
+vendor/etc/media_codecs_performance.xml
+vendor/etc/media_profiles_V1_0.xml
+
 # MobiCore
 app/mcRegistry/ffffffff000000000000000000000004.tlbin:vendor/app/mcRegistry/ffffffff000000000000000000000004.tlbin
 app/mcRegistry/ffffffff00000000000000000000000c.tlbin:vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin
