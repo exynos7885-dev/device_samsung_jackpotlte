@@ -6,10 +6,6 @@ on init
     symlink /dev/block/platform/13500000.dwmmc0/by-name/PERSISTENT /dev/block/persistent
 
 on post-fs-data
-    #dbmdx permission
-    mkdir /data/firmware 0770 audioserver system
-    chown audioserver system /data/firmware
-
     # Permissions for audio
     mkdir /efs/nxp 0770 system audio
     chown system audio /efs/nxp/rdc_cal
