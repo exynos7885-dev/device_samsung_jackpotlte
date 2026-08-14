@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
     libkeymaster4support
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.samsung
